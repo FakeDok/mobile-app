@@ -314,6 +314,7 @@ body{
 .all-project__button{
     margin-top: 50px;
     padding-top: 13px;
+    margin-bottom: 130px;
     font-size: 16px;
     text-align: center;
     color: #FFFFFF;
@@ -322,4 +323,47 @@ body{
     width: 200px;
     height: 45px;
 }
+.video {
+    text-align: center;
+    background-image: url("img/first-screen.png");
+    height: 735px;
+}
+.video-container{
 
+}
+.video__title{
+    padding-top: 70px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.video__discription{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 235px;
+}
+.video__play-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 970px;
+    height: 430px;
+    background-image: url("img/tower.png");
+    margin-left: 300px;
+}
+.video__play{
+    display: flex;
+    border: 1px solid #FFFFFF;
+    border-radius: 200px;
+    padding: 20px;
+}
+.video__play-text{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 21px;
+    padding-right: 20px;
+    margin-top: 21px;
+}
+.img-play{
+    margin-left: 25px;
+}
