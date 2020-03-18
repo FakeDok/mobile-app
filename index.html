@@ -10,24 +10,24 @@
 <body>
 <div class="header">
     <div class="container header-container">
-        <div class="header__menu">
-            <p class="header__link link__line_active">Главная</p>
-            <p class="header__link">Наши Проекты</p>
-            <p class="header__link">Услуги</p>
-            <p class="header__link">Новости</p>
-            <p class="header__link">Контакты</p>
+        <div class="header-menu">
+            <p class="header-link link-line_active">Главная</p>
+            <p class="header-link">Наши Проекты</p>
+            <p class="header-link">Услуги</p>
+            <p class="header-link">Новости</p>
+            <p class="header-link">Контакты</p>
         </div>
     </div>
 </div>
-<div class="main__screen">
-    <div class="container main__screen_container">
-        <div class="main__screen_title">Передовая IT-студия</div>
-        <div class="main__screen_slogan">Мы создаем легкие решения сложных задач и проблем</div>
-        <div class="main__screen_button">Наши Проекты</div>
+<div class="main-screen">
+    <div class="container main-screen-container">
+        <div class="main__screen-title">Передовая IT-студия</div>
+        <div class="main__screen-slogan">Мы создаем легкие решения сложных задач и проблем</div>
+        <div class="main__screen-button">Наши Проекты</div>
     </div>
 </div>
 <div class="services">
-    <div class="services__container">
+    <div class="container services-container">
       <div class="services__title">Мы создаем мобильные приложения для крупных корпораций</div>
       <div class="services__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати ивэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов налатинице с начала XVI века.</div>
       <div class="services__item">
@@ -39,9 +39,9 @@
               </div>
             </div>
           </div>
-          <div class="services__item_group">
-            <div class="services__item_title">Создание сайтов</div>
-            <div class="services__item_description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
+          <div class="services__item-group">
+            <div class="services__item-title">Создание сайтов</div>
+            <div class="services__item-description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
           </div>
         </div>
         <div class="services__item-paper-rings">
@@ -52,9 +52,9 @@
               </div>
             </div>
           </div>
-          <div class="services__item_group">
-            <div class="services__item_title">Создание сайтов</div>
-            <div class="services__item_description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
+          <div class="services__item-group">
+            <div class="services__item-title">Создание сайтов</div>
+            <div class="services__item-description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
           </div>
         </div>
         <div class="services__item-paper-rings">
@@ -65,9 +65,9 @@
               </div>
             </div>
           </div>
-          <div class="services__item_group">
-            <div class="services__item_title">Создание сайтов</div>
-            <div class="services__item_description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
+          <div class="services__item-group">
+            <div class="services__item-title">Создание сайтов</div>
+            <div class="services__item-description">Lorem Ipsum - это текст- "рыба", часто используе в печати ивэб-дизайне.</div>
           </div>
         </div>
       </div>
@@ -187,16 +187,60 @@
   </div>
 </div>
 <div class="video">
-    <div class="container video-container">
-        <div class="video__title">Видео о нашей работе</div>
-        <div class="video__discription">Просто посмотрите, как мы работаем</div>
-        <div class="video__play-button">
-            <div class="video__play">
-                <img class="img-play" src="img/play.png"/>
-                <p class="video__play-text">Смотреть видео</p>
-            </div>
+  <div class="container video-container">
+      <div class="video__title">Видео о нашей работе</div>
+      <div class="video__discription">Просто посмотрите, как мы работаем</div>
+      <div class="video__play-button">
+          <div class="video__play">
+              <img class="img-play" src="img/play.png"/>
+              <p class="video__play-text">Смотреть видео</p>
+          </div>
+      </div>
+      <div class="subscribe">
+        <div class="subscribe__title">Подпишитесь на нашу рассылку</div>
+        <div class="subscribe__discription-top">Полезные статьи, акции, новости - получите все это сейчас!</div>
+        <div class="subscribe__button-email">
+          <input class="subscribe__email" type="email" name="email" placeholder="Ваш e-mail">
+          <div class="subscribe__button">Подписаться</div>
         </div>
+        <div class="subscribe__discription-bottom">Мы не шлем спам, и передаем никому ваши данные</div>
+
+      </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container footer-container">
+    <div class="footer__all-column">
+      <div class="footer__column-contact">
+        <div class="column-contact__title column__title_size">Контактная информация</div>
+        <div class="column-contact__email">test@test.ru</div>
+        <div class="column-contact__phone">+8 777 555 66 99</div>
+        <div class="column-contact__adress">Москва, Бульвар Ленина 33</div>
+      </div>
+      <div class="footer__column-main-links">
+        <div class="column-main-links__title column__title_size">Основные ссылки</div>
+        <div class="column-main-links__home column__discription_size">Главная</div>
+        <div class="column-main-links__Our-projects column__discription_size">Наши проекты</div>
+        <div class="column-main-links__Our-services column__discription_size">Наши услуги</div>
+        <div class="column-main-links__contacts column__discription_size">Контакты</div>
+      </div>
+      <div class="footer__column-our-projects">
+        <div class="column-our-projects__title column__title_size">Наши проекты</div>
+        <div class="column-our-projects__Rosnano column__discription_size">РосНано</div>
+        <div class="column-our-projects__Skolkovo column__discription_size">Сколково</div>
+        <div class="column-our-projects__projetc-Vostok column__discription_size">Проект “Восток”</div>
+        <div class="column-our-projects__Kaliningrad column__discription_size">ТЭЦ Калининграда</div>
+      </div>
+      <div class="footer__column-social-networks">
+        <div class="column-social-networks__title column__title_size">Социальные сети</div>
+        <div class="column-social-networks__vk column__discription_size">VK.com</div>
+        <div class="column-social-networks__instagram column__discription_size">Instagram</div>
+        <div class="column-social-networks_Facebook column__discription_size">Facebook</div>
+        <div class="column-social-networks__Twitter column__discription_size">Twitter</div>
+      </div>
     </div>
+    <div class="footer__bottom-discription">(с) 2019. Все права защищены.</div>
+  </div>
 </div>
 </body>
 </html>
