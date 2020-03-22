@@ -42,7 +42,7 @@ body{
     border-bottom-color: white;
 }
 .main-screen{
-    height: 900px;
+    padding-bottom: 130px;
     background-image: url("img/first-screen.png");
     background-size: cover;
 }
@@ -126,6 +126,9 @@ body{
     width: 200px;
     height: 45px;
 }
+.ring-paper__image{
+    width: 100%;
+}
   .big-ring {
     border: 1px solid #e0e0e0;
     width: 110px;
@@ -156,16 +159,15 @@ body{
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 90px;
+    padding-top: 100px;
 }
 .about-us__text{
-    padding-top: 152px;
     text-align: left;
 }
 .about-us__text-title{
-    width: 70%;
     font-size: 36px;
     color: #323232;
-    line-height: 53px;
 }
 .about-us__text-description{
     width: 70%;
@@ -179,8 +181,6 @@ body{
     color: #4985FF;
 }
 .about-us__image{
-    padding-top: 100px;
-    padding-bottom: 90px;
 }
 .about-us__numbers-project{
     display: flex;
@@ -199,6 +199,9 @@ body{
 }
 .about-us__web-image{
     padding-top: 78.77px;
+}
+.about-us__lap-top{
+    width: 550px;
 }
 .about-us__number{
     font-size: 36px;
@@ -222,13 +225,12 @@ body{
 }
 .our-work__title-button{
     display: flex;
+    justify-content: space-between;
 }
 .our-work__title{
     font-size: 36px;
     color: #FFFFFF;
     margin-top: 100px;
-    margin-right: 370px;
-    align-self: flex-start;
 }
 .our-work__button{
     margin-top: 120px;
@@ -238,9 +240,8 @@ body{
     color: #FFFFFF;
     border-radius: 30px;
     background: #4985FF;
-    width: 200px;
+    width: 15%;
     height: 45px;
-    align-self: flex-end;
 }
 .our-work__all-column{
     display: flex;
@@ -251,9 +252,8 @@ body{
     margin-left: 15px;
 }
 .our-work__column-image{
-    width: 350px;
-    height: 300px;
-    background: #C4C4C4;
+    width: 100%;
+    height: 60%;
     border-radius: 10px;
     margin-top: 70px;
 }
@@ -299,11 +299,8 @@ body{
     margin-top: 70px;
 }
 .image-code{
-    width: 255px;
-    height: 255px;
+    width: 23%;
     border-radius: 10px;
-    background:#C4C4C4;
-    margin: 30px;
 }
 .all-project__button{
     margin-top: 50px;
@@ -341,10 +338,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 970px;
+    width: 100%;
     height: 430px;
     background-image: url("img/tower.png");
-    margin-left: 110px;
+    background-size: cover;
     margin-bottom: 85px;
 }
 .video__play{
@@ -409,7 +406,7 @@ body{
 }
 .footer__all-column{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 70px;
     border-bottom: 1px solid #E0E0E0;
 }
@@ -422,13 +419,11 @@ body{
     font-size: 28px;
     color: #000000;
     margin-bottom: 35px;
-    margin-right: 70px;
 }
 .column__discription_size{
     font-size: 18px;
     color: #999999;
     margin-bottom: 30px;
-    margin-right: 50px;
     text-align: start;
 }
 .column__discription_size::before{
@@ -438,7 +433,6 @@ body{
     font-size: 18px;
     color: #999999;
     margin-bottom: 30px;
-    margin-right: 50px;
     text-align: start;
 }
 .column-contact__email::before{
@@ -448,7 +442,6 @@ body{
     font-size: 18px;
     color: #999999;
     margin-bottom: 30px;
-    margin-right: 50px;
     text-align: start;
 }
 .column-contact__phone::before{
@@ -458,7 +451,6 @@ body{
     font-size: 18px;
     color: #999999;
     margin-bottom: 30px;
-    margin-right: 50px;
     text-align: start;
 }
 .column-contact__adress::before{
@@ -469,4 +461,476 @@ body{
     color: #999999;
     margin-top: 30px;
     padding-bottom: 30px;
+}
+@media (max-width:1024px){
+    .video__play-button{
+        width: 100%;
+        margin-left: unset;
+        background-size: cover;
+    }
+    .about-us__lap-top{
+        width: 400px;
+    }
+    .column__title_size{
+        font-size: 24px;
+    }
+}
+@media (max-width:768px){
+    .main-screen-container{
+        padding-top: 170px;
+    }
+    .main__screen-button{
+        margin-top: 25px;
+        padding-top: 9px;
+        font-size: 13px;
+        width: 30%;
+        height: 36px;
+    }
+    .main__screen-title{
+        font-size: 13px;
+    }
+    .main__screen-slogan{
+        font-size: 30px;
+    }
+    .services{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .services__title{
+        font-size: 30px;
+    }
+    .services__description {
+        font-size: 12px;
+    }
+    .services__item-group{
+        padding-top: 25px;
+    }
+    .services__item-paper-rings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services__button{
+        margin-top: 25px;
+        padding-top: 9px;
+        font-size: 13px;
+        width: 30%;
+        height: 36px;
+    }
+    .about-us__lap-top{
+        width: 300px;
+    }
+    .about-us__text-title{
+        font-size: 25px;
+    }
+    .about-us__text-description {
+        font-size: 12px;
+    }
+    .about-us__text-details{
+        font-size: 12px;
+    }
+    .about-us__number{
+        font-size: 24px;
+        padding-top: 75px;
+        padding-left: 10px;
+    }
+    .about-us__web-text-bottom{
+        padding-top: 1px;
+    }
+    .about-us__web-text{
+        font-size: 15px;
+    }
+    .our-work__title{
+        width: 60%;
+        font-size:28px;
+    }
+    .our-work__button{
+        width: 20%;
+    }
+    .our-work__column-image{
+        height: 35%;
+    }
+    .our-work__column-discription{
+        margin-top:1px;
+        font-size: 12px;
+    }
+    .our-work__column-site{
+        font-size: 13px;
+    }
+    .all-project__title{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .all-project__discription{
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .all-project__image{
+        margin-top: 30px;
+    }
+    .all-project__button{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding-top: 9px;
+        font-size: 13px;
+        width: 30%;
+        height: 36px;
+    }
+    .video{
+        background-size: 100% 400px;
+    }
+    .video__title{
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    .video__discription{
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+    .video__play-button{
+        height: 275px;
+        margin-bottom: 70px;
+    }
+    .img-play{
+        width: 25%;
+    }
+    .video__play-text{
+        font-size: 12px;
+    }
+    .video__play{
+        padding: 10px;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .footer__all-column{
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .column__title_size{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .column-contact__email{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .column-contact__phone{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .column-contact__adress{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .column__discription_size{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .footer__bottom-discription{
+        font-size: 12px;
+    }
+}
+@media (max-width:426px){
+    .header{
+        display: none;
+    }
+    .main-screen{
+        padding-bottom: 1px;
+    }
+    .main-screen-container{
+        padding-top: 30px;
+        padding-bottom: 29px;
+    }
+    .main__screen-title{
+        font-size: 10px;
+    }
+    .main__screen-slogan{
+        font-size: 20px;
+    }
+    .main__screen-button {
+        margin-top: 15px;
+        font-size: 8px;
+        width: 22%;
+        height: 25px;
+        padding-top:8px;
+    }
+    .services{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .services__title{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .services__description{
+        font-size: 8px;
+        padding-bottom: 20px;
+    }
+    .services__item{
+        flex-direction: column;
+    }
+    .big-ring{
+        width: 50px;
+        height: 50px;
+    }
+    .small-ring {
+        width: 30px;
+        height: 30px;
+        margin: 8px;
+        padding: 5px;
+    }
+    .ring-paper__image{
+        width: 60%;
+    }
+    .services__item-group{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .services__item-title{
+        font-size: 12px;
+    }
+    .services__item-description{
+        font-size: 8px;
+    }
+    .services__button{
+        margin-top: 15px;
+        font-size: 8px;
+        width: 22%;
+        height: 25px;
+        padding-top:8px;
+    }
+    .about-us__text-image{
+        padding-top:  30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+    .about-us__text{
+        text-align: center;
+    }
+    .about-us__text-title{
+        font-size: 15px;
+    }
+    .about-us__text-description{
+        font-size: 8px;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+    .about-us__text-details{
+        font-size: 9px;
+    }
+    .about-us__lap-top{
+        width: 220px;
+    }
+    .about-us__web-image{
+        padding-top: 10px;
+        width: 25%;
+    }
+    .about-us__number{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 3px;
+    }
+    .about-us__web-text{
+        font-size: 12px;
+    }
+    .about-us__numbers-project{
+        padding-bottom: 20px;
+    }
+    .our-work__title{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .our-work__button{
+        margin-top: 30px;
+        font-size: 8px;
+        width: 22%;
+        height: 25px;
+        padding-top:8px;
+    }
+    .our-work__column-title{
+        font-size: 11px;
+        margin-top: 1px;
+    }
+    .our-work__column-image{
+        height: 35%;
+        margin-top: 30px;
+    }
+    .our-work__column-discription{
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .our-work__column{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .our-work{
+        background: linear-gradient( to bottom, #5F12D0 34%, #FFFFFF 34%);
+    }
+    .our-work__column-site{
+        font-size: 9px;
+    }
+    .all-project__title{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .all-project__discription{
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    .all-project__image{
+        margin-top: 10px;
+    }
+    .all-project__button{
+        margin-top: 20px;
+        font-size: 8px;
+        width: 22%;
+        height: 25px;
+        padding-top:8px;
+        margin-bottom: 20px;
+    }
+    .video{
+        background-size: 100% 200px;
+    }
+    .video__title{
+        font-size: 15px;
+    }
+    .video__discription{
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+    .video__play-button{
+        height: 153px;
+        margin-bottom: 30px;
+    }
+    .video__play{
+        padding: 5px;
+    }
+    .video__play-text{
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 15px;
+    }
+    .img-play{
+        width: 21%;
+    }
+    .subscribe{
+        padding-top: 20px;
+    }
+    .subscribe__title{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .subscribe__discription-top{
+        font-size: 9px;
+        padding-bottom: 20px;
+    }
+    .subscribe__button-email{
+        padding-bottom: 25px;
+    }
+    .subscribe__email{
+        padding: 10px 0px 9px 20px;
+        font-size: 9px;
+    }
+    .subscribe__button{
+        padding: 9px 20px 10px 15px;
+        font-size: 10px;
+    }
+    .subscribe__discription-bottom{
+        font-size: 9px;
+        margin-bottom: 20px;
+    }
+    .footer{
+        padding-top: 10px;
+    }
+    .footer__all-column{
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    .column__title_size{
+        font-size: 10px;
+    }
+    .column-contact__email{
+        font-size: 8px;
+    }
+    .column-contact__phone{
+        font-size: 8px;
+    }
+    .column-contact__adress{
+        font-size: 8px;
+    }
+    .column__discription_size{
+        font-size: 8px;
+    }
+    .footer__bottom-discription{
+        font-size: 8px;
+    }
+    .footer__bottom-discription{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:321px){
+    .main__screen-slogan{
+        font-size: 15px;
+    }
+    .main__screen-button{
+        margin-top: 15px;
+        font-size: 9px;
+        width: 35%;
+    }
+    .services__button{
+        margin-top: 15px;
+        font-size: 9px;
+        width: 35%;
+    }
+    .about-us__web-text{
+        font-size: 8px;
+        text-align: start;
+    }
+    .our-work__title{
+        width: 70%;
+    }
+    .our-work__button{
+        margin-top: 30px;
+        font-size: 9px;
+        width: 35%;
+    }
+    .our-work-container{
+        padding-bottom: 60px;
+    }
+    .all-project__button{
+        margin-top: 15px;
+        font-size: 9px;
+        width: 35%;
+    }
+    .video{
+        background-size: 100% 140px;
+    }
+    .video__title{
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .video__discription{
+        margin-bottom: 20px;
+    }
+    .video__play-button{
+        height: 116px;
+        margin-bottom: 20px;
+    }
+    .video__play{
+        padding: 1px;
+    }
+    .video__play-text{
+        padding-left: 10px;
+        padding-right: 1px;
+        margin-top: 13px;
+    }
+    .subscribe{
+        padding-top: 10px;
+    }
 }
